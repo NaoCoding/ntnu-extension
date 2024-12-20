@@ -1,11 +1,11 @@
 const theme = {
-    "default":{
+    "light_gray":{
         "menu" : {
             "font" : "#2c2d2c",
             "border" : "gray",
             "background" : "#f2f2f2"
         }
-    }, // to add any theme, just have the same format as default
+    }, // to add any theme, just have the same format as example
 
     "light":{
         "menu" : {
