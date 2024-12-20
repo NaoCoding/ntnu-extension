@@ -29,6 +29,8 @@ async function css_modify_iportal_menu(){
         label.left = "25%"
         label.margin = "0"
         label.padding = "0"
+        label.setProperty("background-color" , theme[config.theme].menu.background)
+        document.querySelector("#box_aptree > center").style.setProperty("background-color" , theme[config.theme].menu.background)
 
         label = document.querySelector("#divStandaptree > ul").style
         
@@ -36,6 +38,10 @@ async function css_modify_iportal_menu(){
         label.setProperty("flex-direction","column")
         label.setProperty("margin-top","10px")
         label.setProperty("margin-left","10px")
+        label.setProperty("background-color" , theme[config.theme].menu.background)
+
+
+        document.querySelector("body").style.setProperty("background-color" , theme[config.theme].menu.background)
 
 
         const option_list = document.querySelectorAll("li")
@@ -75,6 +81,7 @@ async function css_modify_iportal_menu(){
             element.style.setProperty("padding" , "15px")
             element.style.setProperty("border-radius" , "5px")
             element.style.setProperty("border","solid 1px " + theme[config.theme].menu.border)
+            element.style.setProperty("background-color" , theme[config.theme].menu.background)
             
 
            
