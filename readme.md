@@ -2,7 +2,8 @@
 
 #### Overview
 
-This is a simple extension for websites relative to NTNU (including [iportal](https://iportal.ntnu.edu.tw/) , [Moodle](https://moodle3.ntnu.edu.tw/)), which can be used to improve the user experience of these websites.
+This is a simple extension for websites relative to NTNU (including [iportal](https://iportal.ntnu.edu.tw/) , [Moodle](https://moodle3.ntnu.edu.tw/)),<br> which can be used to improve the user experience of these websites. <br> 
+It is still a prototype and we will add more and more functions gradually.
 
 #### Features
 
@@ -18,6 +19,7 @@ This is a simple extension for websites relative to NTNU (including [iportal](ht
 1. Clone or [Download](https://github.com/NaoCoding/ntnu-extension/archive/refs/heads/main.zip) the repo
 2. `cp config_template.js config.js` or rename the config_template.js to config.js and fill your info
 3. [Load the folder of extension from your browser](https://support.google.com/chrome/a/answer/2714278?hl=zh-Hant)
+**Do not delete the folder after you loaded into browser**
 
 #### Config
 
