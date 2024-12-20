@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "NTNU Extension",
+  "description": "A cutting-edge extension for Websites according to NTNU",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://iportal.ntnu.edu.tw/*",
+        "https://moodle3.ntnu.edu.tw/*"
+      ],
+      "js": [
+        "config.js",
+        "main.js",
+        "./src/theme.js",
+        "./src/css_modify.js",
+        "./src/login.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
