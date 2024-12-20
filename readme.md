@@ -2,7 +2,7 @@
 
 #### Overview
 
-This is a simple extension for websites relative to NTNU (including [iportal](https://iportal.ntnu.edu.tw/) , [Moodle](https://moodle3.ntnu.edu.tw/)),<br> which can be used to improve the user experience of these websites. <br> 
+This is a simple extension for websites related to NTNU (including [iportal](https://iportal.ntnu.edu.tw/) , [Moodle](https://moodle3.ntnu.edu.tw/)),<br> which can be used to improve the user experience of these websites. <br> 
 It is still a prototype and we will add more and more functions gradually.
 
 #### Features
