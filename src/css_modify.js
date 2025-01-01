@@ -13,7 +13,8 @@ async function css_modify_iportal_menu(){
             "#div_aptreeContent > table > tbody > tr > td > div:nth-child(2)",
             "#box_aptree > center > table > tbody > tr:nth-child(2)",
             "#box_aptree > center > table > tbody > tr:nth-child(1) > td:nth-child(1)",
-            "#box_aptree > center > table > tbody > tr:nth-child(1) > td:nth-child(3)"
+            "#box_aptree > center > table > tbody > tr:nth-child(1) > td:nth-child(3)",
+            "#Column2 > div:nth-child(2)"
         ]
 
         toHide.forEach(element => {
