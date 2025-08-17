@@ -11,11 +11,7 @@ function login_iportal(){
 
         document.querySelector("#muid").value = config.username
         document.querySelector("#mpassword").value = config.password
-        document.querySelector("body > table:nth-child(2) \
-            > tbody > tr:nth-child(2) > td > table > tbody > \
-            tr:nth-child(2) > td:nth-child(3) > table > tbody > \
-            tr:nth-child(2) > td > table:nth-child(1) > tbody > \
-            tr:nth-child(2) > td > div > input[type=button]").click()
+        document.querySelector("#submitButton").click()
 
     }
 
