@@ -1,6 +1,10 @@
 window.onload = function() { // connect all the functions/features here
         
-    css_modify() // functions written in css_modify.js
+    // css_modify() 
+    /*
+    Since iportal have a brand new version of frontend, we deprecate the css_modify()
+    for now and we may bring it back in the future.
+    */
     login() // functions written in login.js
     
 }
